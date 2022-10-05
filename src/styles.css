@@ -1,0 +1,62 @@
+:root {
+  --primary-color: #22d3ee;
+  --secondary-color: #f7fee7;
+}
+body {
+  background-color: var(--secondary-color);
+}
+.App {
+  font-family: sans-serif;
+  color: var(--primary-color);
+  text-align: center;
+  max-width: 600px;
+  margin: auto;
+}
+
+.d-flex {
+  display: flex;
+}
+.mt-1 {
+  margin-top: 1rem;
+}
+.ml-1 {
+  margin-left: 1rem;
+}
+.flex-direction-column {
+  flex-direction: column;
+}
+.justify-content-center {
+  justify-content: center;
+}
+.align-items-center {
+  align-items: center;
+}
+.justify-space-between {
+  justify-content: space-between;
+}
+
+.input-box {
+  padding: 0.5rem 1rem;
+  border-radius: 0.3rem;
+  border: 1px solid var(--primary-color);
+}
+
+.active-btn {
+  color: white;
+  background-color: var(--primary-color);
+  padding: 0.5rem 1rem;
+  border-radius: 0.3rem;
+  border: 1px solid var(--primary-color);
+}
+.btn {
+  color: var(--primary-color);
+  background-color: var(--secondary-color);
+  padding: 0.5rem 1rem;
+  border-radius: 0.3rem;
+  border: 1px solid var(--primary-color);
+  cursor: pointer;
+}
+.link {
+  text-decoration: none;
+  color: var(--primary-color);
+}
